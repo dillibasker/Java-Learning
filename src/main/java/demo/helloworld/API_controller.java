@@ -32,5 +32,6 @@ public class API_controller {
     @PostMapping("/create")
     String reuestbody(@RequestBody String body){
         return body;
+
     }
 }
